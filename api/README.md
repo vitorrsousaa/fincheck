@@ -35,6 +35,9 @@ $ yarn install
 ## Running the app
 
 ```bash
+# start docker
+$ docker run --name fincheck -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -p 5434:5432 -d postgres
+
 # development
 $ yarn run start
 

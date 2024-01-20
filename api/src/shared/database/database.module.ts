@@ -12,6 +12,7 @@ import { TransactionRepository } from './repositories/transactions.repositories'
     UsersRepository,
     CategoriesRepository,
     BankAccountsRepository,
+    TransactionRepository,
   ],
   exports: [
     UsersRepository,
